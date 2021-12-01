@@ -1,0 +1,56 @@
+#module-afterpaynl-redirect #block_top_menu,
+#module-afterpaynl-redirect .nav,
+#module-afterpaynl-redirect .banner,
+#module-afterpaynl-redirect #search_block_top,
+#module-afterpaynl-redirect #left_column,
+#module-afterpaynl-redirect #right_column,
+#module-afterpaynl-redirect #footer,
+#module-afterpaynl-redirect .shopping_cart {
+    display: none;
+}
+
+#module-afterpaynl-redirect #center_column {
+    min-height: 400px;
+}
+
+p.payment_module a.afterpaynl {
+    background: url(../img/afterpaynl.png) 15px 15px no-repeat #fbfbfb
+}
+
+img.afterpaynl {
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn-default-afterpay {
+    background: none repeat scroll 0 0 #78a231;
+    border-radius: 0;
+    color: #fff;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 0;
+    transition: 150ms;
+}
+
+.btn-default-afterpay:hover {
+    background: #685546;
+}
+
+.go_back {
+    margin-left: 10px;
+}
+
+table.afterpaynl tbody td {
+    padding: 10px;
+}
+
+table.afterpaynl input,
+table.afterpaynl label {
+    padding: 4px;
+    font-size: 16px;
+}

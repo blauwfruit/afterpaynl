@@ -1,0 +1,35 @@
+3.2.4
+
+- style: Prepare module for publishing on GitHub
+
+3.2.3
+
+- fix: only load hookDisplayOrderConfirmation when payment is with (this) AfterPay module
+- fix: use fetch function to display confirmation.tpl
+- fix: use object $param['order'] for 1.7.x
+
+3.2.2
+
+- fix: add absolute path when fetching template inside a template (module:afterpaynl/views/templates/front/..) for compatability with 1.7.7.5
+
+3.2.1
+
+- Improved template fetching
+- Improved logic to check if customer is eligible for AfterPay
+
+3.2.0
+
+- Merge 1.6 with 1.7
+- Improved birtday validation
+- Improved error messaging
+- Displaying payment options always, warn client on AfterPay payment page
+- Renames payment page to `pay`
+
+3.1.1
+
+- Improvement passing on phone number to the AfterPay API 
+
+3.1.0
+
+- Automatically making phone required as per the requirements of AfterPay
+- Documentation extended
