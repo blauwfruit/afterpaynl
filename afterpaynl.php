@@ -22,7 +22,7 @@ class Afterpaynl extends PaymentModule
     {
         $this->name = 'afterpaynl';
         $this->tab = 'payments_gateways';
-        $this->version = '3.2.3';
+        $this->version = '3.2.4';
         $this->author = 'blauwfruit';
         $this->need_instance = 0;
         $this->bootstrap = true;
